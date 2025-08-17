@@ -1,0 +1,35 @@
+{
+	"remappings": [
+		"@oz/=lib/openzeppelin-contracts/contracts/",
+		"@solmate/=src/dependencies/solmate/",
+		"@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+		"erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+		"forge-std/=lib/forge-std/src/",
+		"halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+		"openzeppelin-contracts/=lib/openzeppelin-contracts/"
+	],
+	"optimizer": {
+		"enabled": true,
+		"runs": 100000
+	},
+	"metadata": {
+		"useLiteralContent": false,
+		"bytecodeHash": "none",
+		"appendCBOR": true
+	},
+	"outputSelection": {
+		"*": {
+			"*": [
+				"evm.bytecode",
+				"evm.deployedBytecode",
+				"devdoc",
+				"userdoc",
+				"metadata",
+				"abi"
+			]
+		}
+	},
+	"evmVersion": "cancun",
+	"viaIR": true,
+	"libraries": {}
+}
